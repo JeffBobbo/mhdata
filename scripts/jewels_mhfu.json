@@ -1,0 +1,77 @@
+#!/usr/bin/perl
+
+use warnings;
+use strict;
+
+use JSON;
+use Data::Dumper;
+
+open(my $fh, '<', '../data/jewels.json');
+#chomp(my @lines = <$fh>);
+my $json = decode_json(join('', <$fh>));
+close($fh);
+
+my @data = @{$json->[2]{data}};
+
+my @jewels;
+
+foreach my $j (@data)
+{
+=example
+  "Ammo Box Jewel": {
+    "Elder": 1,
+    "HR": 1,
+    "Price": 200,
+    "Rarity": 4,
+    "Resources": {
+      "BattlefieldJewel": 1,
+      "Rathian Spike": 1,
+      "Remobra Skull": 1
+    },
+    "Skills": {
+      "Reload": -1,
+      "Capacity": 1
+    },
+    "Slots": 1
+  },
+=cut
+
+  my $points = {
+    $j->{Stat1} => $j->{'Points+'}+0
+  };
+  if ($j->{Stat2} ne '-')
+  {
+    $points->{$j->{Stat2}} = $j->{'Points-'}+0;
+  }
+
+=snip
+  my $resources = [];
+  for (my $i = 1; $i <= 4 && $j->{'Material'.$i} ne '-'; ++$i)
+  {
+    push(@{$resources}, {$j->{'Material' . $i} => $j->{'Needed' . $i}+0});
+  }
+=cut
+  my $resources = {};
+  for (my $i = 1; $i <= 4 && $j->{'Material'.$i} ne '-'; ++$i)
+  {
+    $resources->{$j->{'Material' . $i}} = $j->{'Needed' . $i}+0;
+  }
+
+  my $jewel = {
+    id => $j->{id}+0,
+    name => $j->{UniteNames},
+    price => $j->{Price}+0,
+    slots => $j->{SlotsRequired}+0,
+    rarity => $j->{Rarity}+0,
+    class => $j->{HunterType},
+    skills => $points,
+    resources => $resources,
+    desc => $j->{Desc}
+  };
+
+  push(@jewels, $jewel);
+}
+
+open($fh, '>', '../mhfu/jewels.json');
+print $fh encode_json(\@jewels);
+close($fh);

@@ -1,0 +1,217 @@
+[
+  {
+    "name": "Movement Speed Up",
+    "notes": ["ww", "pp"],
+    "self": true
+  },
+  {
+    "name": "Attacks Harder To Break",
+    "notes": ["ww", "pp"],
+    "self": true
+  },
+  {
+    "name": "Clairvoyance",
+    "notes": ["bbg"],
+    "self": true
+  },
+  {
+    "name": "Supersonic Waves",
+    "notes": ["yyy"],
+    "self": false
+  },
+  {
+    "name": "Attack Up [Lo]",
+    "notes": ["wr"],
+    "self": false
+  },
+  {
+    "name": "Attack Up [Hi]",
+    "notes": ["prr"],
+    "self": false
+  },
+  {
+    "name": "Defense Up [Lo]",
+    "notes": ["ry"],
+    "self": false
+  },
+  {
+    "name": "Defense Up [Hi]",
+    "notes": ["rgr", "raap"],
+    "self": false
+  },
+  {
+    "name": "Health Inc [Lo]",
+    "notes": ["rbw"],
+    "self": false
+  },
+  {
+    "name": "Health Inc [Mid]",
+    "notes": ["rra"],
+    "self": false
+  },
+  {
+    "name": "Health Inc [Hi]",
+    "notes": ["rbrp"],
+    "self": false
+  },
+  {
+    "name": "Wind Reduce",
+    "notes": ["bbr"],
+    "self": false
+  },
+  {
+    "name": "Wind Cancel",
+    "notes": ["bbg", "bab"],
+    "self": false
+  },
+  {
+    "name": "Wind All Cancel",
+    "notes": ["bbyp"],
+    "self": false
+  },
+  {
+    "name": "Marathon [Lo]",
+    "notes": ["wb"],
+    "self": false
+  },
+  {
+    "name": "Marathon [Hi]",
+    "notes": ["pbb"],
+    "self": false
+  },
+  {
+    "name": "Health Rec [Lo]",
+    "notes": ["pg"],
+    "self": false
+  },
+  {
+    "name": "Health Rec [Mid]",
+    "notes": ["gpy"],
+    "self": false
+  },
+  {
+    "name": "Health Rec [Hi]",
+    "notes": ["ggpa"],
+    "self": false
+  },
+  {
+    "name": "Health Rec [Lo] & Antidote",
+    "notes": ["wg"],
+    "self": false
+  },
+  {
+    "name": "Health Rec [Mid] & Antidote",
+    "notes": ["gbpb"],
+    "self": false
+  },
+  {
+    "name": "Health Rec [Mid] & Deoderant",
+    "notes": ["gwa"],
+    "self": false
+  },
+  {
+    "name": "Recover Spd Up [Lo]",
+    "notes": ["ggy"],
+    "self": false
+  },
+  {
+    "name": "Recover Spd Up [Hi]",
+    "notes": ["grgp"],
+    "self": false
+  },
+  {
+    "name": "Heavenly Protection",
+    "notes": ["gypy"],
+    "self": false
+  },
+  {
+    "name": "Hear Protect [Lo]",
+    "notes": ["aar"],
+    "self": false
+  },
+  {
+    "name": "Hear Protect [Hi]",
+    "notes": ["aagp"],
+    "self": false
+  },
+  {
+    "name": "No Cold & Snow Res",
+    "notes": ["aay"],
+    "self": false
+  },
+  {
+    "name": "No Heat",
+    "notes": ["aga"],
+    "self": false
+  },
+  {
+    "name": "No Faint",
+    "notes": ["abp"],
+    "self": false
+  },
+  {
+    "name": "No Paralysis",
+    "notes": ["ayy"],
+    "self": false
+  },
+  {
+    "name": "No Quakes",
+    "notes": ["aya"],
+    "self": false
+  },
+  {
+    "name": "Element Attack Up",
+    "notes": ["ybyw"],
+    "self": false
+  },
+  {
+    "name": "Fire Res Up [Lo]",
+    "notes": ["yr"],
+    "self": false
+  },
+  {
+    "name": "Fire Res Up [Hi]",
+    "notes": ["ybw"],
+    "self": false
+  },
+  {
+    "name": "Water Res Up [Lo]",
+    "notes": ["ybp"],
+    "self": false
+  },
+  {
+    "name": "Water Res Up [Hi]",
+    "notes": ["ybbw"],
+    "self": false
+  },
+  {
+    "name": "Thunder Res Up [Lo]",
+    "notes": ["yap"],
+    "self": false
+  },
+  {
+    "name": "Thunder Res Up [Hi]",
+    "notes": ["yyb"],
+    "self": false
+  },
+  {
+    "name": "Ice Res Up [Lo]",
+    "notes": ["ywa", "ygw"],
+    "self": false
+  },
+  {
+    "name": "Ice Res Up [Hi]",
+    "notes": ["ypa", "ygp"],
+    "self": false
+  },
+  {
+    "name": "Dragon Res Up [Lo]",
+    "notes": ["wy"],
+    "self": false
+  },
+  {
+    "name": "Dragon Res Up [Hi]",
+    "notes": ["pyy"],
+    "self": false
+  }
+]

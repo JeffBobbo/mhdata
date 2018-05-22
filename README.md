@@ -22,6 +22,7 @@ A list of what's needed/wanted for each game is presented here, in a rough order
   * [ ] Training (low priority)
   * [ ] Treasure (low priority)
 * [ ] Felyne chef information
+  * [ ] Food
   * [ ] Skills
   * [ ] Buffs
 * [ ] Monster information?
@@ -40,8 +41,9 @@ A list of what's needed/wanted for each game is presented here, in a rough order
   * [ ] Training (low priority)
   * [ ] Treasure (low priority)
 * [ ] Felyne chef information
+  * [x] Food
   * [ ] Skills
-  * [ ] Buffs
+  * [x] Buffs
 * [ ] Monster information?
   * [ ] Carves?
   * [ ] Weaknesses?

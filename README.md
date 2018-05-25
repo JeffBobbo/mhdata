@@ -14,8 +14,8 @@ A list of what's needed/wanted for each game is presented here, in a rough order
 ### MHF
 * [ ] Item list
 * [x] Combination list
-* [ ] Armour information
-* [ ] Skill information
+* [x] Armour information
+* [x] Skill information
 * [ ] Quest lists
   * [ ] Village
   * [ ] Guild Hall
